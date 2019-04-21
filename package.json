@@ -1,0 +1,28 @@
+{
+  "name": "cricketgame",
+  "version": "1.0.0",
+  "repository": "",
+  "description": "Simulates a game of cricket",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "author": "Saurav Azad",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0"
+  },
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": "~5.6.0"
+  },
+  "dependencies": {
+    "typescript": "^3.4.4"
+  }
+}

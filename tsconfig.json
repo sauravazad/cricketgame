@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es2017"
+  },
+  // "include": ["src/**/*"],
+  "exclude": ["node_modules", "test"],
+  "compileOnSave": true,
+  "alwaysStrict": true
+}
